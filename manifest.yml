@@ -1,0 +1,11 @@
+applications:
+- name: customermicroservices
+  memory: 900M
+  instances: 1
+  path: ./build/libs/customermicroservices-0.0.1-SNAPSHOT.jar
+  services:
+  - MongoDB
+  - RabbitMQ
+  - Hystrix
+  - EurekaServer
+  - ConfigServer

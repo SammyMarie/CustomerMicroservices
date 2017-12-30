@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: ${APP_NAME:customer-services}
+
+  output:
+      ansi:
+        enabled: always
