@@ -19,7 +19,7 @@ public class CustomerReservationFallback implements ReservationClient{
 
         if(CollectionUtils.isNotEmpty(reservations)){
 
-            reservations.forEach(reserve -> reservationMap.put(customerId, reservations));
+            reservations.forEach(reserve -> reservationMap.putIfAbsent(customerId, reservations));
         }
     }
 
