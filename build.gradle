@@ -46,6 +46,7 @@ dependencies {
     compile 'org.projectlombok:lombok'
     compile "io.springfox:springfox-swagger2:${swaggerVersion}"
     compile "io.springfox:springfox-swagger-ui:${swaggerVersion}"
+    compile 'org.springframework.boot:spring-boot-starter-security'
     compile 'org.springframework.boot:spring-boot-starter-undertow'
     compile 'org.springframework.boot:spring-boot-starter-actuator'
     compile 'com.fasterxml.jackson.datatype:jackson-datatype-jsr310'
@@ -55,7 +56,6 @@ dependencies {
     compile 'org.springframework.cloud:spring-cloud-config-client'
     compile 'org.springframework.cloud:spring-cloud-starter-config'
     compile 'org.springframework.cloud:spring-cloud-starter-eureka'
-    compile 'org.springframework.boot:spring-boot-starter-security'
     compile 'org.springframework.cloud:spring-cloud-starter-hystrix'
     compile 'org.springframework.cloud:spring-cloud-starter-bus-amqp'
     compile 'org.springframework.cloud:spring-cloud-starter-openfeign'
