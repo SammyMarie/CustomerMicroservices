@@ -43,6 +43,8 @@ dependencies {
         exclude module: "spring-boot-starter-tomcat"
     }
 
+    annotationProcessor 'org.projectlombok:lombok'
+
     compile 'org.projectlombok:lombok'
     compile "io.springfox:springfox-swagger2:${swaggerVersion}"
     compile "io.springfox:springfox-swagger-ui:${swaggerVersion}"
@@ -72,5 +74,5 @@ dependencies {
 }
 
 task wrapper(type: Wrapper){
-    gradleVersion = '4.4'
+    gradleVersion = '4.8'
 }

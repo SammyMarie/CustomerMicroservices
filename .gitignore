@@ -3,3 +3,5 @@
 .gradle
 out
 build
+FeignClientConfig.java
+WebSecurityConfig.java
